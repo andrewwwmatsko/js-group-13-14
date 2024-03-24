@@ -96,3 +96,35 @@ console.log(x === 1 ? "Вірно" : "Невірно");
 // }
 
 // console.log(total);
+
+//TODO: № 8  =========================================================
+// Напишіть if..else, що відповідає наступному switch:
+// const browser = "Opera"
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+// const browser = "likhjl";
+
+// if (browser === "Edge") {
+//   alert("You've got the Edge!");
+// } else if (
+//   browser === "Chrome" ||
+//   browser === "Firefox" ||
+//   browser === "Safari" ||
+//   browser === "Opera"
+// ) {
+//   alert("Okay we support these browsers too");
+// } else {
+//   alert("We hope that this page looks ok!");
+// }
