@@ -60,3 +60,27 @@ console.log(x === 1 ? "Вірно" : "Невірно");
 //     break;
 // }
 // console.log(result);
+
+
+//TODO: № 5 на for ===================================
+// За допомогою циклу for додайте всі парні числа від min до max
+
+    
+// const min = 0;
+// const max = 10;
+// let total = 0;
+
+// for (let i = min; i <= max; i += 1) {
+//     // if (i % 2 === 0) {
+//     //     total += i;
+
+//     // }
+//     if (i % 2 !== 0) {
+//         continue; 
+//     }
+//      total += i;
+// }
+
+// console.log(total);
+
+
