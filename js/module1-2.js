@@ -61,11 +61,9 @@ console.log(x === 1 ? "Вірно" : "Невірно");
 // }
 // console.log(result);
 
-
 //TODO: № 5 на for ===================================
 // За допомогою циклу for додайте всі парні числа від min до max
 
-    
 // const min = 0;
 // const max = 10;
 // let total = 0;
@@ -76,11 +74,25 @@ console.log(x === 1 ? "Вірно" : "Невірно");
 
 //     // }
 //     if (i % 2 !== 0) {
-//         continue; 
+//         continue;
 //     }
 //      total += i;
 // }
 
 // console.log(total);
 
+// TODO: № 7 на for =====================================================
+//Напишіть цикл, який виводить у консоль
+// числа від max до min за спаданням
+// Додайте усі парні числа від min до max
+// const min = 0;
+// const max = 10;
+// let total = 0;
+// for (let i = max; i >= min; i -= 1) {
+//   console.log(i);
+//   if (i % 2 === 0) {
+//     total += i;
+//   }
+// }
 
+// console.log(total);
