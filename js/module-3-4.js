@@ -16,3 +16,26 @@
 //     return minNumber;
 // }
 // console.log(findSmallerNumber(numbers));
+
+//TODO: № 2 =============================================================
+//Напишіть функцію caclculateAverage()
+//яка приймає довільну кількість
+//аргументів і повертає їхнє середнє значення.
+//Додати перевірку, що аргументи це числа.
+
+/* function caclculateAverage() {
+  const args = arguments;
+  let sum = 0;
+  let totalCount = 0;
+  for (const arg of args) {
+    if (typeof arg !== "number") {
+      //   args.length -= 1;
+      continue;
+    }
+    sum += arg;
+    totalCount += 1;
+  }
+  return sum / totalCount;
+}
+console.log(caclculateAverage(1, "Привіт", 2, 20, 1));
+ */
