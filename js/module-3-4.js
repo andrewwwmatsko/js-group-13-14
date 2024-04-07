@@ -39,3 +39,15 @@
 }
 console.log(caclculateAverage(1, "Привіт", 2, 20, 1));
  */
+
+// //TODO: № 3 ==============================================================
+// // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
+// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+// function sumNumbers(numbers) {
+//   const newArray = [];
+//   for (let i = 0; i < numbers.length - 1; i++) {
+//     newArray.push(numbers[i] + numbers[i + 1])
+//   }
+//   return newArray;
+// }
+// console.log(sumNumbers(someArr));
