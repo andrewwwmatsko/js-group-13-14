@@ -51,3 +51,22 @@ console.log(caclculateAverage(1, "Привіт", 2, 20, 1));
 //   return newArray;
 // }
 // console.log(sumNumbers(someArr));
+
+//TODO: № 4 ================================================================
+// Потрібно написати функцію, яка приймає 2 параметри key та obj,
+// яка буде перебирати об'єкт
+// Якщо у об'єкта є такий ключ - поверне true
+// const obj = {
+//   name: "Igor",
+//   car: "Mercedes",
+//   carColor: "black",
+// };
+
+// function foo(key, obj) {
+// const keys = Object.keys(obj);
+// return keys.includes(key);
+// return Object.keys(obj).includes(key);
+// return key in obj;
+// }
+
+// console.log(foo("name", obj));
