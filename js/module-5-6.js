@@ -42,7 +42,6 @@
 // console.log(makeProduct("fish", 200, showProduct));
 // console.log(makeProduct("orange", 267, showProduct));
 
-
 //TODO: № 9 на class ✅ ==============================
 //  Написати клас, який буде представляти зоопарк тварин.
 //  Створити загальний клас Animal для тварин.
@@ -99,7 +98,6 @@
 
 // }
 
-
 // class Zoo {
 //     constructor() {
 //         this.animals = [];
@@ -126,3 +124,23 @@
 // zoo.addAnimal(cow);
 
 // zoo.listAnimalsInfo();
+
+//TODO: ==============================================
+//Призначити знижку 20% на фрукти в масиві,
+//Присвоїти ID для кожного продукту
+// const fruits = [
+//   { name: "apple", price: 200 },
+//   { name: "orange", price: 300 },
+//   { name: "grapes", price: 750 },
+// ];
+
+// const discountedFruits = fruits.map((fruit) => {
+//   return {
+//     ...fruit,
+//     name: fruit.name + 1,
+//     price: fruit.price * 0.8,
+//     id: Math.random(),
+//   };
+// });
+
+// console.log(discountedFruits);
