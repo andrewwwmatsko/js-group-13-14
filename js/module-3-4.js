@@ -93,3 +93,95 @@ console.log(caclculateAverage(1, "Привіт", 2, 20, 1));
 // }
 
 // console.log(multiplyNumeric(menu));
+
+//TODO: № 3 на this ✅ ==============================================
+//Виправте помилки, щоб код працював
+
+// const product = {
+//   price: 5000,
+//   showPrice() {
+//     console.log(this.price);
+//   },
+// };
+// product.showPrice();
+
+//TODO: № 4 на this ✅==============================================
+//Виправте помилки, щоб код працював
+
+// function callAction(action) {
+//   action();
+// }
+// const item = {
+//   getQuatity() {
+//     console.log(this.quantity);
+//   },
+//   quantity: 5,
+// };
+// callAction(item.getQuatity.bind(item));
+
+//TODO якщо що на замикання ✅ ==============================================
+// Напишіть функцію makeShef(shefName), яка повертає функцію
+// makeDish(dish), яка памятає імя щефа піл час її виклику
+// Функція  makeDish має логіровать рядок "<імя шефа> is cooking <dish>"
+
+// function makeShef(shefName) {
+//   return function makeDish(dish) {
+//     console.log(`${shefName} is cooking ${dish}`);
+//   };
+// }
+
+// const shef = makeShef("Ivan");
+// const sushef = makeShef("Andrii");
+
+// shef("sushi");
+// shef("pizza");
+
+// sushef("kebab");
+
+//TODO: № 6 на перебирання ✅ ==============================================
+//Зібрати в allTopics масив всіх предметів всіх курсів
+//Виконати фільтрацію, залишивши в uniqueTopics тільки унікальні елементи
+
+const courses = [
+  {
+    name: "Basic HTML+CSS",
+    topics: ["VSCode", "HTML", "CSS", "GitHub", "GitHub Desctop"],
+  },
+  {
+    name: "Intermediate HTML+CSS",
+    topics: ["VSCode", "HTML", "CSS", "GitHub", "Git", "Terminal"],
+  },
+  {
+    name: "Basic JavaScript",
+    topics: [
+      "VSCode",
+      "Type system",
+      "Loops",
+      "Function",
+      "Git",
+      "Conditions",
+      "Classes",
+      "GitHub",
+      "DOM",
+    ],
+  },
+  {
+    name: "Intermediate JavaScript",
+    topics: [
+      "VSCode",
+      "NPM",
+      "Bundlers",
+      "Transpiling",
+      "Git",
+      "Promises",
+      "AJAX",
+      "GitHub",
+    ],
+  },
+];
+
+const allTopics = courses
+  .flatMap((course) => course.topics)
+  .filter((el, i, arr) => arr.indexOf(el) === i);
+
+console.log(allTopics);
