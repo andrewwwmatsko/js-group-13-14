@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/module-9-10.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/module-9-10.css" />
-</head>
+  <body>
+    <a href="./index.html">Home</a>
+    <!-- ЗАДАЧА 1 -->
+    <div class="wrapper">
+      <button type="button" data-start class="btn-start">Start</button>
+      <button type="button" data-stop class="btn-stop">Stop</button>
+    </div>
+    <!-- ЗАДАЧА 2 -->
+    <div class="checkbox-thumb">
+      <input type="checkbox" id="checkbox" class="checkbox" />
+      <label class="theme-toggle" for="checkbox"></label>
+      <div class="checkbox-circle"></div>
+    </div>
 
-<body>
-  <a href="./index.html">Home</a>
-  <!-- ЗАДАЧА 1 -->
-  <div class="wrapper">
-    <button type="button" data-start class="btn-start">Start</button>
-    <button type="button" data-stop class="btn-stop">Stop</button>
-  </div>
-  <!-- ЗАДАЧА 2 -->
-  <div class="checkbox-thumb">
-    <input type="checkbox" id="checkbox" class="checkbox" />
-    <label class="theme-toggle" for="checkbox"></label>
-    <div class="checkbox-circle"></div>
-  </div>
-  <script type="module" src="./js/module-9-10.js"></script>
-</body>
-
+    <!-- ЗАДАЧА 3 -->
+    <form id="task-form">
+      <input type="text" name="taskName" />
+      <button type="submit">Додати</button>
+    </form>
+    <ul id="task-list"></ul>
+    <script type="module" src="./js/module-9-10.js"></script>
+  </body>
 </html>
